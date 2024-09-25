@@ -1,0 +1,75 @@
+body{
+	text-align: center;
+}
+
+#articlesBox{
+	height: fit-content;
+	width: 600px;
+       	margin-top: 10px;
+    	display:inline-block;
+	font-size: 20px;
+	border-style: solid;	
+}
+
+.createDialog{
+	margin-top: -280px;
+	display: none;
+	border-style: solid;
+}
+
+#submitNewArticle{
+	margin-top: 10px;
+}
+
+.hidden{
+	visibility:hidden;
+}
+
+#articlesList{
+	width:560px;
+	height:240px;
+	display:block;
+	text-align: left;
+}
+#naviagation{
+	width:50%;
+	height: 100%;
+}
+
+.deleteButton, .editButton, .showButton{
+	margin-right:20px;
+	float: right;
+}
+
+.showButton{
+	color: blue;
+}
+.editButton{
+	color: blue;
+}
+.deleteButton{
+	color:red;
+}
+#nextButton, #prevButton{
+	width: 65px;
+	height: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#createDialogButton{
+	height: 30px;
+	width: 100px;
+}
+#TagSearchInput{
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+#autocomplete{
+	border-style: solid;
+	border: grey;
+}
+
+#autocomplete > div{
+	color: blue;
+}

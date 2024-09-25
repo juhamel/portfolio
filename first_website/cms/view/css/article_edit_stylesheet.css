@@ -1,0 +1,61 @@
+body{
+	text-align: center;
+}
+#contentBox{
+	border-style: solid;
+	height: fit-content;
+	width: 600px;
+	display: inline-block;
+	font-size: 20px;
+}
+#editBox{
+	width: 600px;
+	height:fit-content;
+	display:block;
+	text-align:left;
+}
+
+.tagInput{
+	text-align: right;
+}
+
+.editTagDialog{
+	border-style: solid;
+	display: none;
+	width: 600px;
+}
+
+
+#editForm{
+	width:600px;
+	height:fit-content;
+}
+#ArticleNameInput{
+	font-size: 15px;
+	width: 260px;
+}
+#ArticleContentInput{
+	font-size: 14px;
+	width: 592px;
+	height: 297px;
+}
+#submitDiv{
+	display: flex;
+	justify-content: space-evenly;
+}
+#submitEdit{
+	background: darkgreen;
+	color: white;
+	height: 40px;
+	width: 60px;
+	font-size: 20px;
+}
+
+#backToArtButton{
+	display: inline-block;
+	background: red;
+	color: white;
+	height: 40px;
+	font-size:20px;
+	text-align: center;
+}

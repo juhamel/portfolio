@@ -1,0 +1,38 @@
+body{
+	text-align: center;
+}
+#articleBox{
+	border-style: solid;
+	margin: 0 auto;
+	max-width: 600px;
+	height:fit-content;
+	min-height:430px;
+}
+h1{
+	font-size:30px;
+}
+#contentBox{
+	word-wrap: break-word;
+}		
+#buttonBox{
+	border-style:solid;
+	width: 600px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+#tagBox{
+	max-width: 600px;
+	border-style: solid;
+	margin: 0 auto;
+	justify-content: space-evenly;
+}
+
+.button{
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid grey;
+	background: lightgrey;
+	border-radius: 5px;
+}
+
